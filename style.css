@@ -81,3 +81,9 @@ h2 {
     margin: 10px 0;
   }
 }
+
+a:hover, button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
