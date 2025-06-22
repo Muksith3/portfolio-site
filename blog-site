@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Blog Site</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      padding: 20px;
+      background-color: #fff5e1;
+    }
+    h1 {
+      color: #ff6600;
+    }
+  </style>
+</head>
+<body>
+  <h1>📰 My Blog</h1>
+  <p>Blog posts will appear here soon!</p>
+</body>
+</html>
