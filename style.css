@@ -1,9 +1,10 @@
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
-  body {
-    background-color: #121212;
-    color: #f1f1f1;
+  .card {
+    background-color: #1e1e1e;
+    box-shadow: 0 4px 8px rgba(255,255,255,0.05);
   }
+}
 
   h1, h2 {
     color: #4CAF50;
@@ -96,9 +97,3 @@ a:hover, button:hover {
   margin-bottom: 20px;
 }
 
-@media (prefers-color-scheme: dark) {
-  .card {
-    background-color: #1e1e1e;
-    box-shadow: 0 4px 8px rgba(255,255,255,0.05);
-  }
-}
