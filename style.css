@@ -33,3 +33,32 @@ ul {
 h2 {
   color: #2c3e50;
 }
+
+/* ---------------- Responsive Styles ---------------- */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  h1, h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+
+  a, button {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+  }
+}
